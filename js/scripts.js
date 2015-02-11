@@ -14,3 +14,15 @@ var coinCombo = function(change) {
     change -= 1;
   } return answer;
 };
+
+$(document).ready(function() {
+  $("form#coin-combo").submit(function(event) {
+    var change = parseInt($("input#change").val());
+    var answer = coinCombo(change);
+
+    $(".change-answer").text(answer);
+    $("#result").show();
+
+    event.preventDefault();
+  });
+});
