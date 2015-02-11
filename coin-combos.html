@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Coin Combos!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Coin Combos!</h1>
+      <form id="coin-combo">
+        <div class="form-group">
+          <label for="change">Enter the amount of change to be returned:</label>
+          <input id="change" type="text" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success">Receive your change!</button>
+      </form>
+      <div id="result">
+        <p><strong>Your Change:</strong> <span class="change-answer"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
