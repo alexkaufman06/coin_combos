@@ -8,6 +8,6 @@ describe("coinCombo", function() {
   });
 
   it("returns the correct amount of nickles", function() {
-    expect(coinCombos(40)).to.equal("1Q 1D 1N");
+    expect(coinCombo(40)).to.equal("1Q 1D 1N");
   });
 });
