@@ -1,6 +1,6 @@
 var coinCombo = function(change) {
   var answer = [0,0,0,0]
-  var coins = [25, 10, 5, 1]
+  var coins = [25,10,5,1]
 
   for (var i=0; i < coins.length; i++) {
     while (change >= coins[i]) {
