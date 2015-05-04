@@ -8,7 +8,7 @@ Clone repository and open the coin-combos.html file.
 ```
 Zarro Boogs 
 ```
-### Author:
+### Authors:
 Alex Kaufman  
 Philip Orchard
 #### MIT License
